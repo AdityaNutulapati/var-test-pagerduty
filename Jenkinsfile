@@ -42,7 +42,7 @@ pipeline{
                     // echo ${env.SOMETHING}
                     script {
                     env.SOMETHING = "2"
-                    echo "${PD_SELF_KEY}"
+                    ech "${PD_SELF_KEY}"
                     // env.SOMETHING = giveMeKey()
                     echo "$randomString"
                     echo "SOMETHING = ${env.SOMETHING}"// creates env.SOMETHING variable
